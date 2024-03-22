@@ -6,3 +6,4 @@ tensorflow
 shapely==1.8.5
 python==3.11.2
 xarray
+netcdf4
