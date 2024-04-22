@@ -17,12 +17,12 @@ First, identify a location where you would like to work in a development environ
 ```
 git clone https://github.com/s-wolvin/OPG-CNN-Northern-Utah-CIROH-Workshop
 ```
-### Create Your Virtual Environment
-From your command prompt, go to the home directory
+### Create Your Virtual Environment From The Command Line
+From your command prompt, go to the home directory.
 ```
 cd ~
 ```
-Create an envs directory to hold your Python environments.
+Create an envs directory to hold your Python environments if you have not done so previously.
 ```
 mkdir envs
 ```
