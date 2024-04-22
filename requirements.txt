@@ -1,7 +1,7 @@
 pandas==2.2.1
 matplotlib==3.8.0
-cartopy=0.21.0
-numpy
+cartopy==0.22.0
+numpy==1.26.4
 tensorflow==2.16.1
 shapely==1.8.5
 python==3.11.2
