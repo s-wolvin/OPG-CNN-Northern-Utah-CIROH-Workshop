@@ -39,7 +39,27 @@ Finally, download the list of Python Libraries needed for the workshop using the
 pip install -r requirements.txt
 ```
 
-
+### Create Your Virtual Environment From The YML File
+From your command prompt, go to the home directory.
+```
+cd ~
+```
+Create an envs directory to hold your Python environments if you have not done so previously.
+```
+mkdir envs
+```
+The command below creates the needed environment and downloads all required Python libraries. The environment will be named `CNN_env`.
+```
+conda env create -f environment.yml
+```
+Once Anaconda sets up your environment, activate it using the activate function.
+```
+conda activate CNN_env
+```
+To check if the environment was installed correctly, run the following line.
+```
+conda env list
+```
 
 
 
