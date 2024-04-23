@@ -65,7 +65,7 @@ conda env list
     .
     ├── datasets                   # Pre-processed ERA5, facets, observed precipitation, and OPGs
     ├── figures                    # Figures created from the scripts/ files
-    ├── pre-processing             # Python code to pre-process datasets from the entire western CONUS to northern UT
+    ├── pre-processing             # Pre-process datasets from the western CONUS to northern UT
     ├── scripts                    # CNN Workshop scripts
     ├── README.md                 
     ├── environment.yml            # Environment file
