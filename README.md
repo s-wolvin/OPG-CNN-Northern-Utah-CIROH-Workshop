@@ -11,41 +11,19 @@ This workshop offers participants an introduction to convolutional neural networ
 
 
 # Getting Started:
+### Fork Repository
+
+
 ### Clone Repository
 First, identify a location where you would like to work in a development environment. Using the command prompt, change your working directory to this folder and git clone [OPG-CNN-Northern-Utah-CIROH-Workshop](https://github.com/s-wolvin/OPG-CNN-Northern-Utah-CIROH-Workshop). Or clone using GitHub Desktop -> File -> Clone Repository, and paste the link listed below under the URL tab.
 ```
 git clone https://github.com/s-wolvin/OPG-CNN-Northern-Utah-CIROH-Workshop
-```
-### Create Your Virtual Environment From The Command Line
-From your command prompt, go to the home directory.
-```
-cd ~
-```
-Create an envs directory to hold your Python environments if you have not done so previously.
-```
-mkdir envs
-```
-The command below creates the needed environment, specifically with Python version 3.11.2. Here, the environment is named `CNN_env`, name the environment how you see fit.
-```
-conda create -n CNN_env python=3.11.2
-```
-Once Anaconda sets up your environment, activate it using the activate function.
-```
-conda activate CNN_env
-```
-Finally, download the list of Python Libraries needed for the workshop using the `requirement.txt` file.
-```
-pip install -r requirements.txt
 ```
 
 ### Create Your Virtual Environment From The YML File
 From your command prompt, go to the home directory.
 ```
 cd ~
-```
-Create an envs directory to hold your Python environments if you have not done so previously.
-```
-mkdir envs
 ```
 The command below creates the needed environment and downloads all required Python libraries. The environment will be named `CNN_env`.
 ```
