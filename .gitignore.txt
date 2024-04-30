@@ -1,0 +1,8 @@
+# Pycache
+scripts/__pycache__/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# figure files
+figures/*.png
