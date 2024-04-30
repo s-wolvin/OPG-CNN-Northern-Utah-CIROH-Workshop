@@ -24,7 +24,7 @@ Confirm the details of this page and select Create Fork.
 ### 2. Clone Repository to your Machine
 Identify a location where you would like to work in a development environment. Using the command prompt, change your working directory to this folder and git clone [OPG-CNN-Northern-Utah-CIROH-Workshop](https://github.com/s-wolvin/OPG-CNN-Northern-Utah-CIROH-Workshop). Or clone using GitHub Desktop -> File -> Clone Repository, and paste the link listed below under the URL tab.
 ```
-git clone https://github.com/s-wolvin/OPG-CNN-Northern-Utah-CIROH-Workshop
+git clone https://github.com/YOUR-USERNAME/OPG-CNN-Northern-Utah-CIROH-Workshop
 ```
 
 ### 3. Create Your Virtual Environment From The YML File
