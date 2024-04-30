@@ -11,16 +11,23 @@ This workshop offers participants an introduction to convolutional neural networ
 
 
 # Getting Started:
-### Fork Repository
+### 1. Fork the Repository to your GitHub
 
+Navigate to the top-right corner of the page, select Fork.
 
-### Clone Repository
-First, identify a location where you would like to work in a development environment. Using the command prompt, change your working directory to this folder and git clone [OPG-CNN-Northern-Utah-CIROH-Workshop](https://github.com/s-wolvin/OPG-CNN-Northern-Utah-CIROH-Workshop). Or clone using GitHub Desktop -> File -> Clone Repository, and paste the link listed below under the URL tab.
+![image](https://github.com/s-wolvin/OPG-CNN-Northern-Utah-CIROH-Workshop/assets/34422513/6b96d86e-1ebb-4652-b0f8-c37fb46da3ca)
+
+Confirm the details of this page and select Create Fork.
+
+![image](https://github.com/s-wolvin/OPG-CNN-Northern-Utah-CIROH-Workshop/assets/34422513/343220ce-ec44-40be-a712-f21eaa2dbccc)
+
+### 2. Clone Repository to your Machine
+Identify a location where you would like to work in a development environment. Using the command prompt, change your working directory to this folder and git clone [OPG-CNN-Northern-Utah-CIROH-Workshop](https://github.com/s-wolvin/OPG-CNN-Northern-Utah-CIROH-Workshop). Or clone using GitHub Desktop -> File -> Clone Repository, and paste the link listed below under the URL tab.
 ```
 git clone https://github.com/s-wolvin/OPG-CNN-Northern-Utah-CIROH-Workshop
 ```
 
-### Create Your Virtual Environment From The YML File
+### 3. Create Your Virtual Environment From The YML File
 From your command prompt, go to the home directory.
 ```
 cd ~
