@@ -21,13 +21,36 @@ Confirm the details of this page and select Create Fork.
 
 ![image](https://github.com/s-wolvin/OPG-CNN-Northern-Utah-CIROH-Workshop/assets/34422513/343220ce-ec44-40be-a712-f21eaa2dbccc)
 
-### 2. Clone Repository to your Machine
-Identify a location where you would like to work in a development environment. Using the command prompt, change your working directory to this folder and git clone [OPG-CNN-Northern-Utah-CIROH-Workshop](https://github.com/s-wolvin/OPG-CNN-Northern-Utah-CIROH-Workshop). Or clone using GitHub Desktop -> File -> Clone Repository, and paste the link listed below under the URL tab.
+### 2. Creating Stable CONDA Environment
+Go to home directory
+```
+cd ~
+```
+Create a envs directory
+```
+mkdir envs
+```
+Create .condarc file and link it to a text file
+```
+touch .condarc
+
+ln -s .condarc condarc.txt
+```
+Add the below lines to the condarc.txt file
+```
+# .condarc
+envs_dirs:
+ - ~/envs
+```
+Restart your server
+
+### 3. Clone Repository to your Machine
+Identify a location where you would like to work in a development environment. Using the command prompt, change your working directory to this folder and git clone [OPG-CNN-Northern-Utah-CIROH-Workshop](https://github.com/s-wolvin/OPG-CNN-Northern-Utah-CIROH-Workshop).
 ```
 git clone https://github.com/YOUR-USERNAME/OPG-CNN-Northern-Utah-CIROH-Workshop
 ```
 
-### 3. Create Your Virtual Environment From The YML File
+### 4. Create Your Virtual Environment From The YML File
 From your command prompt, go to the home directory.
 ```
 cd ~
@@ -44,6 +67,7 @@ To check if the environment was installed correctly, run the following line.
 ```
 conda env list
 ```
+
 
 # Folder Structure
     .
