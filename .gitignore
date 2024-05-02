@@ -1,7 +1,3 @@
-# Figures but not the folder
-**.png
-!figures/
-
 # pycache
 **/__pycache__
 
