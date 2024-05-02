@@ -6,3 +6,6 @@
 
 # checkpoints
 **/.ipynb_checkpoints
+
+# pre-processing folder
+/pre-processing
