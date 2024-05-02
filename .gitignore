@@ -1,6 +1,6 @@
 # Figures but not the folder
 **.png
-!/figures
+!figures
 
 # pycache
 **/__pycache__
@@ -9,4 +9,4 @@
 **/.ipynb_checkpoints
 
 # pre-processing folder
-/pre-processing
+pre-processing/
