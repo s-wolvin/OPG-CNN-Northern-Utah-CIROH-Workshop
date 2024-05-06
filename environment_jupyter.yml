@@ -8,6 +8,7 @@ dependencies:
   - aiohttp=3.9.5=py311h459d7ec_0
   - aiosignal=1.3.1=pyhd8ed1ab_0
   - alsa-lib=1.2.11=hd590300_1
+  - asttokens=2.4.1=pyhd8ed1ab_0
   - astunparse=1.6.3=pyhd8ed1ab_0
   - attr=2.5.1=h166bdaf_1
   - attrs=23.2.0=pyh71513ae_0
@@ -29,10 +30,15 @@ dependencies:
   - cftime=1.6.3=py311h1f0f07a_0
   - charset-normalizer=3.3.2=pyhd8ed1ab_0
   - click=8.1.7=unix_pyh707e725_0
+  - comm=0.2.2=pyhd8ed1ab_0
   - contourpy=1.2.1=py311h9547e67_0
   - cryptography=42.0.6=py311h4a61cc7_0
   - cycler=0.12.1=pyhd8ed1ab_0
   - dbus=1.13.6=h5008d03_3
+  - debugpy=1.8.1=py311hb755f60_0
+  - decorator=5.1.1=pyhd8ed1ab_0
+  - exceptiongroup=1.2.0=pyhd8ed1ab_2
+  - executing=2.0.1=pyhd8ed1ab_0
   - expat=2.6.2=h59595ed_0
   - flatbuffers=23.5.26=h59595ed_1
   - font-ttf-dejavu-sans-mono=2.37=hab24e00_0
@@ -66,7 +72,12 @@ dependencies:
   - icu=73.2=h59595ed_0
   - idna=3.7=pyhd8ed1ab_0
   - importlib-metadata=7.1.0=pyha770c72_0
-  - keras=2.15.0=pyhd8ed1ab_0
+  - importlib_metadata=7.1.0=hd8ed1ab_0
+  - ipykernel=6.29.3=pyhd33586a_0
+  - ipython=8.22.2=pyh707e725_0
+  - jedi=0.19.1=pyhd8ed1ab_0
+  - jupyter_client=8.6.1=pyhd8ed1ab_0
+  - jupyter_core=5.7.2=py311h38be061_0
   - keyutils=1.6.1=h166bdaf_0
   - kiwisolver=1.4.5=py311h9547e67_1
   - krb5=1.21.2=h659d440_0
@@ -121,6 +132,7 @@ dependencies:
   - libprotobuf=4.24.4=hf27288f_0
   - libre2-11=2023.09.01=h7a70373_1
   - libsndfile=1.2.2=hc60ed4a_1
+  - libsodium=1.0.18=h36c2ea0_1
   - libsqlite=3.45.3=h2797004_0
   - libssh2=1.11.0=h0841786_0
   - libstdcxx-ng=13.2.0=hc0a3c3a_6
@@ -139,13 +151,14 @@ dependencies:
   - markupsafe=2.1.5=py311h459d7ec_0
   - matplotlib=3.8.0=py311h38be061_2
   - matplotlib-base=3.8.0=py311h54ef318_2
-  - ml_dtypes=0.2.0=py311h320fe9a_2
+  - matplotlib-inline=0.1.7=pyhd8ed1ab_0
   - mpg123=1.32.6=h59595ed_0
   - multidict=6.0.5=py311h459d7ec_0
   - munkres=1.1.4=pyh9f0ad1d_0
   - mysql-common=8.3.0=hf1915f5_4
   - mysql-libs=8.3.0=hca2cd23_4
   - ncurses=6.4.20240210=h59595ed_0
+  - nest-asyncio=1.6.0=pyhd8ed1ab_0
   - netcdf4=1.6.5=nompi_py311he8ad708_100
   - nspr=4.35=h27087fc_0
   - nss=3.98=h1d7d5a4_0
@@ -156,18 +169,27 @@ dependencies:
   - opt_einsum=3.3.0=pyhc1e730c_2
   - packaging=24.0=pyhd8ed1ab_0
   - pandas=2.2.1=py311h320fe9a_0
+  - parso=0.8.4=pyhd8ed1ab_0
   - pcre2=10.43=hcad00b1_0
+  - pexpect=4.9.0=pyhd8ed1ab_0
+  - pickleshare=0.7.5=py_1003
   - pillow=10.3.0=py311h18e6fac_0
   - pip=24.0=pyhd8ed1ab_0
   - pixman=0.43.2=h59595ed_0
+  - platformdirs=4.2.1=pyhd8ed1ab_0
   - ply=3.11=pyhd8ed1ab_2
   - proj=9.4.0=h1d62c97_1
+  - prompt-toolkit=3.0.42=pyha770c72_0
   - protobuf=4.24.4=py311h46cbc50_0
+  - psutil=5.9.8=py311h459d7ec_0
   - pthread-stubs=0.4=h36c2ea0_1001
+  - ptyprocess=0.7.0=pyhd3deb0d_0
   - pulseaudio-client=17.0=hb77b528_0
+  - pure_eval=0.2.2=pyhd8ed1ab_0
   - pyasn1=0.6.0=pyhd8ed1ab_0
   - pyasn1-modules=0.4.0=pyhd8ed1ab_0
   - pycparser=2.22=pyhd8ed1ab_0
+  - pygments=2.18.0=pyhd8ed1ab_0
   - pyjwt=2.8.0=pyhd8ed1ab_1
   - pyopenssl=24.0.0=pyhd8ed1ab_0
   - pyparsing=3.1.2=pyhd8ed1ab_0
@@ -183,6 +205,7 @@ dependencies:
   - python_abi=3.11=4_cp311
   - pytz=2024.1=pyhd8ed1ab_0
   - pyu2f=0.1.5=pyhd8ed1ab_0
+  - pyzmq=26.0.2=py311h08a0b41_0
   - qt-main=5.15.8=hc9dc06e_21
   - re2=2023.09.01=h7f4b329_1
   - readline=8.2=h8228510_1
@@ -195,19 +218,19 @@ dependencies:
   - six=1.16.0=pyh6c4a22f_0
   - snappy=1.1.10=hdb0a2a9_1
   - sqlite=3.45.3=h2c6b66d_0
-  - tensorboard=2.15.2=pyhd8ed1ab_0
+  - stack_data=0.6.2=pyhd8ed1ab_0
   - tensorboard-data-server=0.7.0=py311h63ff55d_1
-  - tensorflow=2.15.0=cpu_py311hd3d7757_2
-  - tensorflow-base=2.15.0=cpu_py311h6aa969b_2
   - tensorflow-estimator=2.15.0=cpu_py311ha26c8b9_2
   - termcolor=2.4.0=pyhd8ed1ab_0
   - tk=8.6.13=noxft_h4845f30_101
   - toml=0.10.2=pyhd8ed1ab_0
   - tomli=2.0.1=pyhd8ed1ab_0
   - tornado=6.4=py311h459d7ec_0
+  - traitlets=5.14.3=pyhd8ed1ab_0
   - typing_extensions=4.11.0=pyha770c72_0
   - tzdata=2024a=h0c530f3_0
   - urllib3=2.2.1=pyhd8ed1ab_0
+  - wcwidth=0.2.13=pyhd8ed1ab_0
   - werkzeug=3.0.3=pyhd8ed1ab_0
   - wheel=0.43.0=pyhd8ed1ab_1
   - wrapt=1.14.1=py311hd4cff14_1
@@ -232,7 +255,20 @@ dependencies:
   - xorg-xproto=7.0.31=h7f98852_1007
   - xz=5.2.6=h166bdaf_0
   - yarl=1.9.4=py311h459d7ec_0
+  - zeromq=4.3.5=h75354e8_3
   - zipp=3.17.0=pyhd8ed1ab_0
   - zlib=1.2.13=hd590300_5
   - zstd=1.5.6=ha6fb4c9_0
+  - pip:
+      - keras==3.3.3
+      - libclang==18.1.1
+      - markdown-it-py==3.0.0
+      - mdurl==0.1.2
+      - ml-dtypes==0.3.2
+      - namex==0.0.8
+      - optree==0.11.0
+      - rich==13.7.1
+      - tensorboard==2.16.2
+      - tensorflow==2.16.1
+      - tensorflow-io-gcs-filesystem==0.37.0
 prefix: /srv/conda/envs/cnn_env
