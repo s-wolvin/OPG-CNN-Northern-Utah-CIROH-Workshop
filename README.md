@@ -45,15 +45,15 @@ envs_dirs:
 Restart your server
 
 ### 3. Clone Repository to your Machine
-Identify a location where you would like to work in a development environment. Using the command prompt, change your working directory to this folder and git clone [OPG-CNN-Northern-Utah-CIROH-Workshop](https://github.com/s-wolvin/OPG-CNN-Northern-Utah-CIROH-Workshop).
+Identify a location where you would like to work in a development environment. Using the command prompt, change your working directory to this folder and git clone your forked OPG-CNN-Northern-Utah-CIROH-Workshop repository.
 ```
 git clone https://github.com/YOUR-USERNAME/OPG-CNN-Northern-Utah-CIROH-Workshop
 ```
 
 ### 4. Create Your Virtual Environment From The YML File
-From your command prompt, go to the home directory.
+From your command prompt, navigate to the OPG-CNN-Northern-Utah-CIROH-Workshop folder.
 ```
-cd ~
+cd OPG-CNN-Northern-Utah-CIROH-Workshop/
 ```
 The command below creates the needed environment and downloads all required Python libraries. The environment will be named `CNN_env`.
 ```
@@ -76,6 +76,6 @@ conda env list
     ├── pre-processing             # Pre-process datasets from the western CONUS to northern UT
     ├── scripts                    # CNN Workshop scripts
     ├── README.md                 
-    ├── environment.yml            # Environment file
+    ├── environment_jupyter.yml    # Environment file
     └── requirements.txt           # Environment requirements file
 
