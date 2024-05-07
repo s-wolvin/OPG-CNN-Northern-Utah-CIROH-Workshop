@@ -51,7 +51,7 @@ git clone https://github.com/YOUR-USERNAME/OPG-CNN-Northern-Utah-CIROH-Workshop
 ```
 
 ### 4. Create Your Virtual Environment From The YML File
-From your command prompt, navigate to the OPG-CNN-Northern-Utah-CIROH-Workshop folder.
+From your command prompt, navigate to the OPG-CNN-Northern-Utah-CIROH-Workshop directory.
 ```
 cd OPG-CNN-Northern-Utah-CIROH-Workshop/
 ```
