@@ -22,15 +22,15 @@ Confirm the details of this page and select Create Fork.
 ![image](https://github.com/s-wolvin/OPG-CNN-Northern-Utah-CIROH-Workshop/assets/34422513/343220ce-ec44-40be-a712-f21eaa2dbccc)
 
 ### 2. Start CIROH JupyterHub
-Select the `Medium` server, which contains 11GB of RAM and 4 CPUs.
+Select the `Medium` server, which contains 11GB of RAM and 4 CPUs. In the Image dropdown, select `Other`.
 
-In the Image dropdown, select `Other`.
+![image](https://github.com/s-wolvin/OPG-CNN-Northern-Utah-CIROH-Workshop/assets/34422513/264e056d-eea6-4532-99f8-85d2e8fa5dc4)
 
-Input the following to the `Custom Image` text box. This selects a custom image containing the Python environment needed.
+Input the following to the `Custom Image` text box. Replace `FIRST-INITIAL-LAST-NAME` with the first initial and your last name. For example, if your name is Jane Doe, you would replace it with `jdoe`. This selects a custom image containing the Python environment needed. 
 ```
 quay.io/benlee7411/devcon24:FIRST-INITIAL-LAST-NAME
 ```
-Then select `Start Server`.
+Then select `Start` at the bottom on the page.
 
 ### 3. Clone Repository to your Machine
 Identify a location where you would like to work in a development environment. Using the command prompt, change your working directory to this folder and git clone your forked OPG-CNN-Northern-Utah-CIROH-Workshop repository.
@@ -43,7 +43,7 @@ Check that the notebook environment is activated.
 ```
 conda activate notebook
 ```
-Register the environment's kernel with JupyterHub.
+Register the environment's kernel with JupyterHub. I would suggest naming the environment `cnn_env` to make the environment kernel easily identifiable.
 ```
 python -m ipykernel install --user --name=YOUR-ENV-NAME
 ```
@@ -69,8 +69,13 @@ git clone https://github.com/YOUR-USERNAME/OPG-CNN-Northern-Utah-CIROH-Workshop
 ```
 
 ### 3. Setting up Environment
+```
+conda env create -f environment.yml
+```
 
-
+```
+conda activate cnn_env
+```
 
 # Folder Structure
     .
