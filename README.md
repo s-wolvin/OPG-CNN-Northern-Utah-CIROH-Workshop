@@ -21,37 +21,16 @@ Confirm the details of this page and select Create Fork.
 
 ![image](https://github.com/s-wolvin/OPG-CNN-Northern-Utah-CIROH-Workshop/assets/34422513/343220ce-ec44-40be-a712-f21eaa2dbccc)
 
-### 2. Start JupyterHub
-Select the Medium server
+### 2. Start CIROH JupyterHub
+Select the `Medium` server, which contains 11GB of RAM and 4 CPUs.
 
-In the Image dropdown, select Other
+In the Image dropdown, select `Other`.
 
-Input ....
-
-
-
-### 2. Creating Stable CONDA Environment
-Go to home directory
+Input the following to the `Custom Image` text box. This selects a custom image containing the Python environment needed.
 ```
-cd ~
+quay.io/benlee7411/devcon24:FIRST-INITIAL-LAST-NAME
 ```
-Create a envs directory
-```
-mkdir envs
-```
-Create .condarc file and link it to a text file
-```
-touch .condarc
-
-ln -s .condarc condarc.txt
-```
-Add the below lines to the condarc.txt file
-```
-# .condarc
-envs_dirs:
- - ~/envs
-```
-Restart your server
+Then select `Start Server`.
 
 ### 3. Clone Repository to your Machine
 Identify a location where you would like to work in a development environment. Using the command prompt, change your working directory to this folder and git clone your forked OPG-CNN-Northern-Utah-CIROH-Workshop repository.
@@ -59,23 +38,18 @@ Identify a location where you would like to work in a development environment. U
 git clone https://github.com/YOUR-USERNAME/OPG-CNN-Northern-Utah-CIROH-Workshop
 ```
 
-### 4. Create Your Virtual Environment From The YML File
-From your command prompt, navigate to the OPG-CNN-Northern-Utah-CIROH-Workshop directory.
+### 4. Register the Kernel with JupyterHub
+Check that the notebook environment is activated.
 ```
-cd OPG-CNN-Northern-Utah-CIROH-Workshop/
+conda activate notebook
 ```
-The command below creates the needed environment and downloads all required Python libraries. The environment will be named `CNN_env`.
+Register the environment's kernel with JupyterHub.
 ```
-conda env create -f environment.yml
+python -m ipykernel install --user --name=YOUR-ENV-NAME
 ```
-Once Anaconda sets up your environment, activate it using the activate function.
-```
-conda activate CNN_env
-```
-To check if the environment was installed correctly, run the following line.
-```
-conda env list
-```
+
+### 5. Selecting Kernel
+From the Jupyter Notebooks, select your kernel.
 
 
 # Folder Structure
