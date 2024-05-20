@@ -21,6 +21,15 @@ Confirm the details of this page and select Create Fork.
 
 ![image](https://github.com/s-wolvin/OPG-CNN-Northern-Utah-CIROH-Workshop/assets/34422513/343220ce-ec44-40be-a712-f21eaa2dbccc)
 
+### 2. Start JupyterHub
+Select the Medium server
+
+In the Image dropdown, select Other
+
+Input ....
+
+
+
 ### 2. Creating Stable CONDA Environment
 Go to home directory
 ```
