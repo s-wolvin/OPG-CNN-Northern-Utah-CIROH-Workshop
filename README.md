@@ -10,7 +10,7 @@ This workshop offers participants an introduction to convolutional neural networ
 * [ECMWF ERA5](https://doi.org/10.1002/qj.3803) - Hourly data on pressure levels and single levels from 1940 to present, subsetted to latitudes 36°N – 45°N, longitudes -119°W – -106°W, of winter (DJF) events from 1988 to 2017. This dataset was accessed through the publicly available Copernicus Climate Change Service (C3S) Climate Data Store (CDS). The ERA5 predictor variables were processed from 6-hourly data on [pressure levels](https://cds.climate.copernicus.eu/cdsapp#!/dataset/reanalysis-era5-pressure-levels?tab=overview) and 6-hourly data on [single levels](https://cds.climate.copernicus.eu/cdsapp#!/dataset/reanalysis-era5-single-levels?tab=form).
 
 
-# Getting Started:
+# Getting Started Using CIROH JupyterHub:
 ### 1. Fork the Repository to your GitHub
 
 Navigate to the top-right corner of the page, select Fork.
@@ -50,6 +50,26 @@ python -m ipykernel install --user --name=YOUR-ENV-NAME
 
 ### 5. Selecting Kernel
 From the Jupyter Notebooks, select your kernel.
+
+# Getting Started Using Personal Computer:
+### 1. Fork the Repository to your GitHub
+
+Navigate to the top-right corner of the page, select Fork.
+
+![image](https://github.com/s-wolvin/OPG-CNN-Northern-Utah-CIROH-Workshop/assets/34422513/6b96d86e-1ebb-4652-b0f8-c37fb46da3ca)
+
+Confirm the details of this page and select Create Fork.
+
+![image](https://github.com/s-wolvin/OPG-CNN-Northern-Utah-CIROH-Workshop/assets/34422513/343220ce-ec44-40be-a712-f21eaa2dbccc)
+
+### 2. Clone Repository to your Machine
+Identify a location where you would like to work in a development environment. Using the command prompt, change your working directory to this folder and git clone your forked OPG-CNN-Northern-Utah-CIROH-Workshop repository.
+```
+git clone https://github.com/YOUR-USERNAME/OPG-CNN-Northern-Utah-CIROH-Workshop
+```
+
+### 3. Setting up Environment
+
 
 
 # Folder Structure
