@@ -36,14 +36,10 @@ Identify a location where you would like to work in a development environment. U
 git clone https://github.com/YOUR-USERNAME/OPG-CNN-Northern-Utah-CIROH-Workshop
 ```
 
-### 4. Register the Kernel with JupyterHub
+### 4. Confirm the Environment in JupyterHub
 Check that the notebook environment is activated.
 ```
 conda activate notebook
-```
-Register the environment's kernel with JupyterHub. I would suggest naming the environment `notebook` for consistency.
-```
-python -m ipykernel install --user --name=YOUR-ENV-NAME
 ```
 
 ### 5. Selecting Kernel
@@ -76,7 +72,7 @@ Activate the new environment.
 conda activate cnn_env
 ```
 
-Register the environment's kernel with JupyterHub. I would suggest naming the environment `cnn_env` for consistency.
+Register the environment's kernel with Jupyter. I would suggest naming the environment `cnn_env` for consistency.
 ```
 python -m ipykernel install --user --name=YOUR-ENV-NAME
 ```
